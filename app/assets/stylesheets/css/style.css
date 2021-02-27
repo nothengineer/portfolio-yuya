@@ -112,6 +112,10 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-image: url(/images/img/about/laptop-mockup.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
 }
 
 .logo {
@@ -206,6 +210,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  justify-content: space-evenly;
 }
 
 .works-item {
