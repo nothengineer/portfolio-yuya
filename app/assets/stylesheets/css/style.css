@@ -94,6 +94,7 @@ li {
 
 .text-bold {
   font-weight: bold;
+  font-size: 20px;
 }
 
 /*--------------------------------
@@ -266,17 +267,17 @@ li {
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .works-text {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .works-url {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .works-image.fadein {
@@ -290,23 +291,23 @@ li {
 }
 
 /*--------------------------------
- Feature
+ Future
 ---------------------------------*/
-.feature-item {
+.future-item {
   display: flex;
   flex-wrap: wrap;
 }
 
-.feature-image-wrapper {
+.future-image-wrapper {
   flex: 0 0 45%;
   margin-right: 40px;
 }
 
-.feature-body {
+.future-body {
   flex: 1;
 }
 
-.feature-body p:not(:last-child) {
+.future-body p:not(:last-child) {
   margin-bottom: 20px;
 }
 
