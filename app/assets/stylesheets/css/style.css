@@ -118,10 +118,6 @@ li {
   padding: 0 40px;
 }
 
-#about-section {
-  background-image: url(/images/img/about/1Q4A8091.jpeg);
-}
-
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
@@ -314,6 +310,14 @@ li {
 /*--------------------------------
  About
 ---------------------------------*/
+#about-section {
+  background: url(/images/img/about/1Q4A8091.jpeg) no-repeat;
+  background-size: contain;
+  /* background-position: 50%; */
+  /* background-size: 100% 728px; */
+}
+
+
 .about-section .inner {
   max-width: 1000px;
 }
@@ -591,12 +595,12 @@ li {
     margin-bottom: 30px;
   }
 
-  /* Feature */
-  .feature-item {
+  /* Future */
+  .future-item {
     display: block;
   }
 
-  .feature-image-wrapper {
+  .fufture-image-wrapper {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
@@ -669,6 +673,7 @@ li {
     width: 40px;
     margin: 0 10px;
   }
+
 
   /* フッター */
   .footer .inner {
